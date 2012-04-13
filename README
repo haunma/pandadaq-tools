@@ -1,0 +1,5 @@
+pandadaq-tools:  Support software for the PandaDAQ board
+--------------------------------------------------------
+
+pdaq_lib/    Support for programming the Spartan-6 FPGA via i2c/spi
+
