@@ -3,3 +3,11 @@ pandadaq-tools:  Support software for the PandaDAQ board
 
 pdaq_lib/    Support for programming the Spartan-6 FPGA via i2c/spi
 
+
+Requirements
+------------
+
+pdaq_lib/ has nearly no external dependencies. However, it does require that
+the libi2c headers are installed (e.g., in the case of Ubuntu, libi2c-dev).
+Failure to install these headers will open the possibility for kernel headers
+to be included which can lead to rather confusing build failures.
